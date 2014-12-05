@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zhangbz.taskstack.MainActivity" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="我是界面01"
+        android:textSize="30sp" />
+    
+    <Button 
+        android:onClick="open01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="开启界面01" />
+
+    <Button 
+        android:onClick="open02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="开启界面02" />
+    
+</LinearLayout>
