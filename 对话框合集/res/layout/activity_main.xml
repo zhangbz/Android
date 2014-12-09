@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zhangbz.dialog.MainActivity" >
+
+    <Button
+        android:onClick="click1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="确定取消对话框" />
+    
+    <Button
+        android:onClick="click2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="单选对话框" />
+    
+    <Button
+        android:onClick="click3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="多选对话框" />
+        
+    <Button
+        android:onClick="click4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="进度条对话框" />
+            
+    <Button
+        android:onClick="click5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="带进度条的进度对话框" />
+                
+</LinearLayout>
